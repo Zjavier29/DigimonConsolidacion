@@ -1,0 +1,68 @@
+body{
+    /* font-family: Poppins ; */
+    font-family: Poppins-Regular ;
+  }
+ul{
+    padding-top: 10px;
+    background-color: #8180F0;
+    height: 50px;
+    display: flex;
+    overflow: hidden;
+}
+a{
+    text-decoration: none !important;
+    color: white !important;
+    font-family: Poppins-Regular ;
+}
+button, input, optgroup, select, textarea {
+    outline: none;
+        font-family: Poppins ;
+    font-family: Poppins-Regular ;
+  }
+  input {
+    padding: 10px;
+    border: solid 0.2px #cccc;
+  }
+  .icon{
+    padding: 30px;
+    color: white;
+    
+  } 
+h1{
+    text-align: center;
+    font-family: 'Poppins-Regular' !important;
+    font-size: 20px !important;
+}
+.padreDigimon{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hijoDigimon{
+    width: 30%;
+    border: solid 0.5px #7977e0;
+    margin-left: 3.33%;
+    margin-top: 3.33%;
+    border-radius: 4px;
+} 
+.imagenDigimon{
+    cursor: pointer;
+}  
+.hijoDigimonText{
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .hijoDigimon{
+        position: relative;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .icon{
+        padding: 30px;
+        font-size: 0px;
+        
+      }
+      .icono{
+        font-size: 24px;
+      }   
+}

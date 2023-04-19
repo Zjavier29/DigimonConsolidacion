@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="assets/css/font-6/css/all.css" rel="stylesheet">
+    <link href="assets/css/fonts/poppins.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+</head>
+<body>
+
+    <ul>
+        <li><a class="icon" href="index.html"><i class="fa-solid fa-magnifying-glass icono"></i> Buscar Digimon </a></li>
+        <li><a class="icon" href="listaCompleta.html"><i class="fa-solid fa-list icono"></i> Ver Lista Completa </a></li>
+    </ul>
+
+    <h1>CONSUMO DE API DIGIMON</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <form action="" method="GET">
+                    <label for="nombreProporcionado">Ingrese Nombre Digimon:</label>
+                    <input type="text" value="" id="nombreProporcionado">
+                    <input type="button" value="Consultar Api Digimon" onclick="consultarDigimon()">
+                </form>
+               <div class="cntDigimon">
+                    <p id="nombreDigimon" class="textoDigimon">.</p>
+                    <img id="imagenDigimon" src="" alt="">
+                    <p id="nivelDigimon" class="textoDigimon">.</p>
+               </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--
+    <button onclick="consultarDigimon()">Consultar Api Digimon</button>
+    -->
+
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
